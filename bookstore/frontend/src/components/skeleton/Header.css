@@ -1,0 +1,35 @@
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.topBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    padding-inline: 40px;
+    /*background-color: rgba(48, 106, 193, 0.16);*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.45)
+}
+
+.mainBar{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    padding-inline: 40px;
+    background-color: rgba(123, 136, 184, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.45)
+}
+.linkBar{
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    flex-wrap: wrap;
+}

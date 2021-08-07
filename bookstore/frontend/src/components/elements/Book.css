@@ -1,0 +1,32 @@
+.bookContainer{
+    width: 280px;
+    height: 360px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.listing{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bookPicture{
+    object-fit: scale-down;
+    background-color: rgba(229, 186, 186, 0.25);
+    height: 200px;
+    padding: 3px;
+}
+
+.searchDiv{
+    background-color: white;
+    width: 90%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline: 80px;
+
+}
